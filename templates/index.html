@@ -1,0 +1,25 @@
+{% extends 'base.html' %}
+{% block body %}
+<div class="title">Upload a log file to analyze</div>
+<div class="content">
+<form action="/debugtool" method="POST" enctype="multipart/form-data">
+    <input type="file" name="Debug Log">
+    <input type="submit" value="Analyze">
+</form>
+
+
+</div>
+
+    <div class="title">Recent log files</div>
+<div class="content">
+
+
+    {% for x in path %}
+<ul class="ullog">
+    <li class="lilog">
+        <a href="##">{{ x }}</a>
+    </li>
+</ul>
+    {% endfor %}
+</div>
+{% endblock %}

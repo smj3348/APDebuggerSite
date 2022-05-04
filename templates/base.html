@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <title>AP Debugger</title>
+</head>
+<header>
+    <h1><span>AP Debugger</span></h1>
+        <nav>
+            <ul class="navul">
+                <li class="navli"><a class="navlinks" href="/">Home</a></li>
+                <li class="navli"><a class="navlinks" href="/debugtool">Debug tool</a></li>
+                <li class="navli"><a class="navlinks" href="/repository">Repository</a></li>
+            </ul>
+        </nav>
+</header>
+
+
+
+<body>
+
+{% block body %}
+{% endblock %}
+
+</body>
+</html>

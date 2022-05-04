@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<div class="title">Debug log files</div>
+<div class="content">
+
+    {% for file in files %}
+<ul>
+    <li>
+        <a href="##">{{ file }}</a>
+    </li>
+</ul>
+    {% endfor %}
+</div>
+{% endblock %}

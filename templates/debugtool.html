@@ -1,0 +1,193 @@
+{% extends 'base.html' %}
+{% block body %}
+
+<div class="container">
+    <div class="sidebartitle"><b>AP Details</b></div>
+    <div class="sidebar">
+    <ul class="no-bullets">
+        <li>Version: {% if apattribute %} {{ apattribute.version }} {% else %} Unknown {% endif %}</li><hr>
+        <li>Model: {% if apattribute %} {{ apattribute.model }} {% else %} Unknown {% endif %}</li><hr>
+        <li>Status: {% if apattribute %} {{ apattribute.status }} {% else %} Unknown {% endif %}</li><hr>
+        <li>Hostname: {% if apattribute %} {{ apattribute.hostname }} {% else %} Unknown {% endif %}</li><hr>
+        <li>MAC Address: {% if apattribute %} {{ apattribute.mac_address}} {% else %} Unknown {% endif %}</li><hr>
+        <li>IP Address: {% if apattribute %} {{ apattribute.ip_address }} {% else %} Unknown {% endif %}</li><hr>
+        <li>Location: {% if apattribute %} {{ apattribute.location }} {% else %} Unknown {% endif %}</li><hr>
+        <li>System Time: {% if apattribute %} {{ apattribute.system_time }} {% else %} Unknown {% endif %}</li><hr>
+        <li>Link Speed: {% if apattribute %} {{ apattribute.link_speed }} {% else %} Unknown {% endif %}</li><hr>
+        <li>Capability: {% if apattribute %} {{ apattribute.capability}} {% else %} Unknown {% endif %}</li><hr>
+        <li>Last Booted: <br>{% if apattribute %} {{ apattribute.last_booted}} {% else %} Unknown {% endif %}</li><hr>
+        <li>Last Upgraded: {% if apattribute %} {{ apattribute.last_upgraded}} {% else %} Unknown {% endif %}</li><hr>
+    </ul>
+    </div>
+    <div class="debugtitle">Debug log Module 1</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+
+    <div class="debugtitle">Debug log Module 2</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+<div class="debugtitle">Debug log Module 3</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+<div class="debugtitle">Debug log Module 4</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+<div class="debugtitle">Debug log Module 5</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+<div class="debugtitle">Debug log Module 6</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+<div class="debugtitle">Debug log Module 7</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+<div class="debugtitle">Debug log Module 8</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+<div class="debugtitle">Debug log Module 9</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+<div class="debugtitle">Debug log Module 10</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+<div class="debugtitle">Debug log Module 11</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+<div class="debugtitle">Debug log Module 12</div>
+    <div class="debugcontent">
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer cursus commodo volutpat.
+        In euismod elit sit amet lacus volutpat luctus. Aenean interdum nibh nec augue tempor pharetra.
+        Mauris et sapien et augue rhoncus consequat. Nullam eget venenatis dolor. Donec auctor semper nisl,
+        a ultricies tellus commodo sed. Proin pretium ligula a felis gravida, rutrum cursus mauris ultricies.
+        Integer aliquam risus sit amet justo mattis tempus. In cursus, ligula sed iaculis tempor, nisl erat
+        sagittis dolor, quis scelerisque leo velit sit amet lacus. Aliquam id eleifend erat. Vivamus a purus
+        efficitur, vulputate ligula euismod, mattis ante. Pellentesque ac imperdiet metus. Etiam scelerisque
+        auctor laoreet. Donec malesuada lectus sit amet nisl vehicula tempor. Nam sagittis viverra risus, sed
+        Morbi venenatis tincidunt varius.
+
+    </div>
+</div>
+
+{% endblock %}
